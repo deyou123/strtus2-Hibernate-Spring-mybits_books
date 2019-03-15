@@ -3,7 +3,7 @@
    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
    "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
-	<!-- 定义restaurant包， 继承Struts 2的默认包  -->
+	<!-- 定义chapter06包， 继承Struts 2的默认包  -->
 	<package name="chapter06" namespace="/" extends="struts-default">
 		<action name="login" class="com.zdy.chapter06.action.LoginAction">
 			<result name="success">/ch06/index.jsp</result>
